@@ -1,6 +1,7 @@
 # О задании
 ## ТЗ
-![image](https://github.com/user-attachments/assets/b9d18a17-08ce-4f66-bd4b-b0baecb3cca3)
+![image](https://github.com/user-attachments/assets/499a1251-89a5-43ab-a7d5-73de531e48ec)
+
 
 # Предворительная информация
 ## Реализован весь необходимый функционал, проект завернут в докер-контейнер, добавлены докстринги и документация.
@@ -35,6 +36,8 @@
     cd InterTask
     docker build -t converter .
     docker run -d -p 8000:8000/tcp converter
+
+## Сайт будет доступен по адрессу http://localhost:8000
 
 ### При необходимости задание может быть переделано под фреймворк FastAPI
 ### Оповестите меня, если это будет необходимо.
