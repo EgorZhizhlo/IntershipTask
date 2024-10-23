@@ -32,7 +32,7 @@
 ### Не стал добавлять, тк нет необходимости. При добавлении БД(например для Кеширования) возможно доьаволение
 
 # Запуск 
-    git clone:https://github.com/EgorZhizhlo/InterTask.git
+    git clone:https://github.com/EgorZhizhlo/IntershipTask.git
     cd InterTask
     docker build -t converter .
     docker run -d -p 8000:8000/tcp converter
