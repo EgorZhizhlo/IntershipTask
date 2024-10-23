@@ -33,7 +33,7 @@
 
 # Запуск 
     git clone https://github.com/EgorZhizhlo/IntershipTask.git
-    cd InterTask
+    cd IntershipTask
     docker build -t converter .
     docker run -d -p 8000:8000/tcp converter
 
